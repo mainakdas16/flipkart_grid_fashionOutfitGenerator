@@ -12,7 +12,11 @@ A fashion Outfit Generator powered by GenAI, uses the power of OpenAI API's to g
 
 ### Here are some glimpses of the application
 
+## prompts
+<img width="501" alt="prompt" src="https://github.com/mainakdas16/flipkart_grid_fashionOutfitGenerator/assets/86925839/c492934a-9232-4620-bd34-39bf553dee99">
 
+## outfits suggested
+<img width="413" alt="outfits" src="https://github.com/mainakdas16/flipkart_grid_fashionOutfitGenerator/assets/86925839/b5b77a42-8e03-4df5-b03e-e6ad0d38cfa6">
 
 ### `npm start`
 
