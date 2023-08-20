@@ -12,6 +12,8 @@ A fashion Outfit Generator powered by GenAI, uses the power of OpenAI API's to g
 
 ### Here are some glimpses of the application
 
+
+
 ### `npm start`
 
 Runs the app in the development mode.\
