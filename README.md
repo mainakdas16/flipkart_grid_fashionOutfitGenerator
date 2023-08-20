@@ -6,6 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## Breif Description
+
+A fashion Outfit Generator powered by GenAI, uses the power of OpenAI API's to generate realistic images according to the user input preferences and also randomly depending on the input prompt.
+
+### Here are some glimpses of the application
+
 ### `npm start`
 
 Runs the app in the development mode.\
