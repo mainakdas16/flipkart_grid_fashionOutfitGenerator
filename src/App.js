@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import { UserContextProvider } from "./UserContext";
+import FashionGpt from "./pages/FashionGpt";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+		<UserContextProvider>
+			<Routes>
+				<Route index element = {
+					<div className="container" >
+						<Home />
+					</div>
+				} />
+
+				<Route path={"/fashionGpt"} element = {
+					<div className="container" >
+						<FashionGpt></FashionGpt>
+					</div>
+				} />
+			</Routes>
+		</UserContextProvider>
   );
 }
 
