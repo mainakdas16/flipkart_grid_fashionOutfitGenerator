@@ -7,8 +7,11 @@ const PORT = 4000;
 const app = express();
 app.use(express.json());
 app.use(cors());
+require("dotenv").config()
 
-const api_key = "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";
+// const api_key = "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";
+
+const api_key = process.env.API_KEY
 
 mongoose.connect("mongodb+srv://dmainak706:26INPAFmou11YO0y@cluster0.a6gqysn.mongodb.net/")
 
