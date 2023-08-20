@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const api_key = "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";
+const api_key = "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";
 
 mongoose.connect("mongodb+srv://dmainak706:26INPAFmou11YO0y@cluster0.a6gqysn.mongodb.net/")
 
